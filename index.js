@@ -19,6 +19,7 @@ console.log(answers)
 
 let score =0;
 
+
 //  calculating score now
 
 
