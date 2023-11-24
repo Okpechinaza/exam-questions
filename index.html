@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Questions</title>
+    <link rel="icon" type="image/jpg" href="">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+            <div class="content">
+                    <h5 ><span id="resultvalue">score</span></h5>
+                    <!-- how do i tell javascript to display result here? -->
+                <h3>Subject: General Knowledge</h3>
+                <h6>Do not start this exam until you are told to do so.</h6>
+                <form id="quiz-questions">
+                    <div class="Question-1">
+                        <p> Question 1:<br>Which is the verb from the options below.</p>
+                        <label>a.<input type="radio" name="q1" value="adviser">Adviser</label><br>
+                        <label>b.<input type="radio" name="q1" value="advice">Advice</label><br>
+                        <label>c.<input type="radio" name="q1" value="advise">Advise</label><br>
+                        <label>d.<input type="radio" name="q1" value="advices">Advises</label>
+                    </div>
+                    <div class="Question-2">
+                        <p>Question 2:<br>
+                            What is the capital of france?</p>
+                        <label>a.<input type="radio" name="q2" value="Lyon">Lyon</label><br>
+                        <label>b. <input type="radio" name="q2" value="Paris">Paris</label><br>
+                        <label>c. <input type="radio" name="q2" value="Toulouse">Toulouse</label><br>
+                        <label>d. <input type="radio" name="q2" value="Marseille">Marseille</label>
+                    </div>
+                    <div class="Question-3">
+                        <p>Question 3:<br>
+                            Who wrote the play "Romeo and Juliet"?</p>
+                        <label>a.<input type="radio" name="q3" value="William Shakespeare">William Shakespeare</label><br>
+                        <label>b.<input type="radio" name="q3" value="Julius Shakespeare">julius Shakespeare</label><br>
+                        <label>c.<input type="radio" name="q3" value="Mel Robbins">Mel Robbins</label><br>
+                        <label>d.<input type="radio" name="q3" value="Juliet Shakespeare">Juliet Shakespeare</label>
+                    </div>
+                    <div class="Question-4">
+                        <p>Question 4:<br> 
+                            What is the capital of Australia?</p>
+                        <label>a.<input type="radio" name="q4" value="Sydney">Sydney</label><br>
+                        <label>b.<input type="radio" name="q4" value="Canberra">Canberra</label><br>
+                        <label>c.<input type="radio" name="q4" value="Melbourne">Melbourne</label><br>
+                        <label>d.<input type="radio" name="q4" value="Brisbane">Brisbane</label>
+                    </div>
+                    <input type="submit" value="&#x2713;submit" class="one" id="resultvalue" onclick="increment()">
+                </form>
+
+<!-- can you modify or make changes to html dingbat? -->
+            </div>
+        </div>
+        <div class="count">
+            <h4 id="counter">0</h4>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <footer></footer>
+</body>
+</html>
