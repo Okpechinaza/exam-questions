@@ -33,20 +33,4 @@ for (let key in answers ) {
   resultContainer.textContent= `${score}`;
   };
   
-let resultContainer=document.getElementById("resultvalue")
-//  let countEL = getElementById("count-El")
-//  let count= 0
-
-// function increment(){
-//      count=+25;
-//      countEl.innerText=count
-//  } 
-
-
-
-    // another increment style
-//     let count = 0;
-// count++;
-// console.log(count);
-
  
